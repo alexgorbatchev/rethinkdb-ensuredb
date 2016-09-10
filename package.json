@@ -1,6 +1,11 @@
 {
   "name": "rethinkdb-insuredb",
   "version": "1.0.0",
+  "description": "A helper method to insure RethinkDB database exists",
+  "keywords": [
+    "rethinkdb",
+    "database"
+  ],
   "scripts": {
     "test": "./test.sh",
     "build": "rm -rf lib && tsc -p .",
