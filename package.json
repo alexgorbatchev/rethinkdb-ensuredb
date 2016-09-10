@@ -1,6 +1,6 @@
 {
   "name": "rethinkdb-insuredb",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "scripts": {
     "test": "./test.sh",
     "build": "rm -rf lib && tsc -p .",
