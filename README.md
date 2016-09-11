@@ -1,6 +1,6 @@
-# rethinkdb-insuredb
+# rethinkdb-ensuredb
 
-Insures that a RethinkDB database is present.
+A helper method to ensure RethinkDB database exists.
 
 * If database is not present, creates and returns it
 * If database present, returns it
@@ -8,14 +8,14 @@ Insures that a RethinkDB database is present.
 ## Installation
 
 ```
-npm install rethinkdb-insuredb
+npm install rethinkdb-ensuredb
 ```
 
 ## Usage
 
 ```js
-import insureDb from "rethinkdb-insuredb";
-insureDb(connection, "db_name").then(db => db.tableCreate(...));
+import ensureDb from "rethinkdb-ensuredb";
+ensureDb(connection, "db_name").then(db => db.tableCreate(...));
 ```
 
 ## License
